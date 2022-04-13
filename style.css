@@ -1,0 +1,886 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.myInfo{
+	width:80%;
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 0px;
+	margin-bottom: 30px;
+	float: left;
+	display: block;
+	box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.616);
+	border-radius: 20px;
+	height: 280px;
+}
+
+.datainfo1{
+	padding-top: 15px;
+	padding-bottom:15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	float: left;
+	width:100%;
+	display: block;
+	color: rgba(0, 0, 0, 0.836);
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.datainfo{
+	padding-top: 20px;
+	padding-bottom:20px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-bottom: 0.5px solid rgba(0, 0, 0, 0.233);
+	float: left;
+	width:100%;
+	display: block;
+	letter-spacing: 2px;
+	color: rgba(0, 0, 0, 0.884);
+	font-size: 12px;
+	background-color: rgb(231, 231, 231);
+}
+.container{
+	cursor: pointer !important;;
+}
+.input2{
+	cursor: pointer!important;
+}
+.msg{
+	transition: .3s;
+}
+.re:hover{
+	background-color: rgb(121, 113, 81);
+}
+.icon1{
+    display: none;
+}
+#check:checked ~ .box{
+	left:0;
+}
+.checkbtn{
+	width: 20%;
+	height: 100%;
+    font-size:20px;
+	padding-left: 20px;
+	padding-top:13px;
+    color: white;
+    float: left;
+    cursor: pointer;
+	display: block;
+}
+.box{
+    height: 50px;
+    float: right;
+    margin: 0px;
+}
+.container{
+	display: block;
+	font-size: 25px;
+	height: 70px;
+}
+.container{
+    height: 50px;
+}
+.asub1{
+	padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 5px;
+	font-size: 17px;
+	font-family:'Source Sans Pro', sans-serif;
+	letter-spacing: 2px;
+	text-align: left;
+	background-color: rgb(15, 46, 65);
+	color: white;
+	border: none;
+	width: 100%;
+	height: 100%;
+	float: left;
+	display: block;
+}
+
+@media (min-width:850px){
+	.asub:hover{
+		background-color: #161b1f;	
+	}
+	.asub1:hover{
+		background-color: #161b1f;	
+	}
+	.asub1{
+		padding-top: 15px;
+		padding-left: 20px;
+		padding-right: 5px;
+		font-size: 17px;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+		text-align: left;
+		background-color: rgb(15, 46, 65);
+		color: white;
+		border: none;
+		width: 100%;
+		height: 100%;
+		float: left;
+		display: block;
+		cursor: pointer !important;
+	}
+	.asub{
+		padding-top: 0px;
+		padding-left: 20px;
+		padding-right: 5px;
+		font-size: 17px;
+		width: 100%;
+		height: 100%;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+		text-align: left;
+		background-color: rgb(15, 46, 65);
+		color: white;
+		border: none;
+		cursor: pointer !important;
+	}
+	.checkbtn{
+		display: none;
+	}
+	.endf{
+		float: left;
+		width: 100%;
+		font-size: 12px;
+		text-align: center;
+		letter-spacing: 2px;
+		font-weight: 100;
+		padding-top: 20px;
+		opacity: 90%;
+	}
+	.tst1{
+		color: #000;
+	}
+	.box1{
+		float: right;
+	}
+	.box2{
+		float: left;
+		
+	}
+	*{
+		box-sizing:border-box;
+	}
+	body{
+		background-color:#b3b3b3;
+		font-family:sans-serif;
+		
+	}
+	#container{
+		width: 100%;
+		height: 100vh;
+		
+	}
+	main{
+		width:90%;
+		height:85%;
+		font-size:25px;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 25px;
+		margin-bottom: 10px;
+		background-color: white;
+		box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5),4px 4px 8px rgba(0, 0, 0, 0.2)
+	}
+	main header{
+		height:10%;
+		background-color:#0065a8;
+		width: 100%;
+		float: left;
+		display: block;
+	}
+	.title{
+		padding-top: 15px;
+		height:90%;
+		top:0px;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+		width: 40%;
+		color: white;
+		float: left;
+		text-align: left;
+		display: block;
+		font-size: 20px;
+		padding-left: 20px;
+	}
+	.u{
+		float: right;
+	}
+	.usersname{
+		float: right;
+		height: 80%;
+		font-size: 10px;
+		color: white;
+		width: 40%;
+		padding-right: 20px;
+		padding-top: 15px;
+		font-family:'Source Sans Pro', sans-serif;
+		opacity: 90%;
+		letter-spacing: 2px;
+		text-align: center;
+	}
+	.box{
+		display: none;
+	}
+	.boxa{
+		display: block;
+		width: 27%;
+		background-color: rgb(15, 46, 65);
+		z-index:1;
+		height: 100%;
+		float: left;
+		overflow: scroll;
+	}
+	.myform1{
+		height: 90%;
+		float: left;
+		width: 100%;
+		display: block;
+	}
+	.inner_div{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin:0;
+		list-style-type:none;
+		overflow:scroll;
+		height: 80%;
+		padding-left: 5%;
+		padding-right: 5%;
+		width: 73%;
+		float: left;
+		display: block;
+	}
+	.inner_div_main{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin:0;
+		list-style-type:none;
+		height: 80%;
+		padding-left: 5%;
+		padding-right: 5%;
+		width: 73%;
+		background-color: rgb(255, 255, 255);
+		float: left;
+		display: block;
+	}
+	.message1{
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	.message2{
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	main .message1a{
+		padding:10px;
+		padding-right: 10px;
+		color:#000;
+		margin-right:15px;
+		background-color:#6fbced;
+		line-height:20px;
+		max-width:90%;
+		display:inline-block;
+		border-radius:5px;
+		font-size: 85%;
+		letter-spacing: 1.5px;
+		margin-top: 30px;
+		float: right;
+		padding-left: 10px;
+	}
+	.box1{
+		float: left;
+	}
+	.box12{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 60%;
+		opacity: 60%;
+		margin-top: 10px;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+	}
+	.message2a{
+		padding:10px;
+		padding-right: 10px;
+		color:#000;
+		margin-right:15px;
+		margin-top: 30px;
+		background-color:#6fbced;
+		line-height:20px;
+		max-width:90%;
+		display:inline-block;
+		font-size: 85%;
+		letter-spacing: 1.5px;
+		float: left;
+		padding-left: 10px;
+		border-radius: 5px;
+	}
+	.box22{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 60%;
+		opacity: 60%;
+		margin-top: 10px;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+	}
+	main footer{
+		float: left;
+		width: 73%;
+		height: 20%;
+		padding:25px 30px 10px 20px;
+		background-color:#242b31;
+	}
+	.message{
+		width: 50%;
+		height: 100%;
+		float: left;
+		border-radius:10px;
+	}
+	.msg{
+		width: 100%;
+		height: 75%;
+		font-size: 15px;
+		padding: 10px 15px;
+		border-radius:10px;
+		border: none;
+		outline:none;
+	}
+	.msg:hover{
+		border: 2px solid rgb(131, 195, 255);
+	}
+	.sub{
+		padding-left: 15px;
+		width: 16%;
+		height: 70%;
+		float: left;
+		display: block;
+		cursor:pointer !important;
+	}
+	.sub_main{
+		padding-left: 15px;
+		width: 25%;
+		height: 70%;
+		float: left;
+		display: block;
+		cursor:pointer !important;
+	}
+	.input2{
+		height: 100%;
+		width: 100%;
+		border-radius: 10px;
+		text-align: center;
+		border:none;
+		text-decoration: none;
+		text-align: center;
+		display: inline-block;
+		padding-top: 12px;
+		background-color: rgb(20, 163, 115);
+		font-size: 14px;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+		color: white;
+		padding-bottom: 12px;
+	}
+	.input2:hover{
+		background-color:rgb(41, 88, 73) ;
+	}
+	.log{
+		padding-left: 15px;
+		width: 16%;
+		height: 70%;
+		float: right;
+		display: block;
+		text-align: center;
+		cursor:pointer !important;
+	}
+	.log_main{
+		padding-left: 15px;
+		width: 25%;
+		height: 70%;
+		float: right;
+		display: block;
+		text-align: center;
+		cursor:pointer !important;
+	}
+	.out{
+		height: 100%;
+		width: 100%;
+		font-size: 25px;
+		border-radius: 10px;
+		display: block;
+		text-align: center;
+		background-color: rgb(247, 62, 77);
+		color: white;
+		border:none;
+		text-decoration: none;
+		text-align: center;
+		display: block;
+		font-size: 14px;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+		cursor:pointer !important;
+	}
+	.out1{
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		margin:auto;
+	}
+	.p{
+		display:block;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	.refresh{
+		padding-left: 15px;
+		width: 16%;
+		height: 70%;
+		float: left;
+		display: block;
+		cursor:pointer !important;
+		margin-left: 5px;
+	}
+	.re{
+		height: 100%;
+		width: 100%;
+		font-size: 25px;
+		border-radius: 10px;
+		display: block;
+		text-align: center;
+		float: right;
+		background-color: rgb(194, 176, 97);
+		color: white;
+		border:none;
+		text-decoration: none;
+		text-align: center;
+		display: inline-block;
+		padding-top: 12px;
+		font-size: 14px;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+		cursor:pointer !important;
+		padding-bottom: 12px;
+	}
+	.out:hover{
+		background-color:  rgb(116, 44, 50);
+	}
+	a{
+		color: white;
+	}
+}
+@media (max-width:850px){
+	.myInfo{
+		width:98%;
+		margin-top: 20px;
+		margin-left: 1%;
+		margin-right: 1%;
+		padding-top: 0px;
+		margin-bottom: 30px;
+		float: left;
+		display: block;
+		box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.616);
+		border-radius: 20px;
+		height: 280px;
+	}
+	.asub:hover{
+		background-color: #06090c;	
+	}
+	.asub1:hover{
+		background-color: #06090c;	
+	}
+	.box1{
+		float: right;
+	}
+	.box2{
+		float: left;
+		
+	}
+	*{
+		box-sizing:border-box;
+	}
+	body{
+		background-color:#b3b3b3;
+		font-family: sans-serif;
+		
+	}
+	#container{
+		width: 100%;
+		height: 100vh;
+		
+	}
+	main{
+		width:100%;
+		height:100%;
+		font-size:20px;
+		background-color: white;
+		box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5),4px 4px 8px rgba(0, 0, 0, 0.2)
+	}
+	main header{
+		height:7%;
+		background-color:#0065a8;
+		width: 100%;
+		float: left;
+		display: block;
+	}
+	.title{
+		padding-top: 14px;
+		height:100%;
+		top:0px;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+		width: 40%;
+		font-size: 18px;
+		color: white;
+		float: left;
+		font-weight: 600;
+		display: block;
+		padding-left: 15px;
+	}
+	.checkbtn{
+		width: 20%;
+		height: 100%;
+		font-size:20px;
+		padding-left: 20px;
+		padding-top:12px;
+		color: white;
+		float: left;
+		cursor: pointer;
+		display: block;
+	}
+	.u{
+		float: right;
+	}
+	.usersname{
+		text-align: center;
+		float: right;
+		height: 80%;
+		font-size: 8px;
+		color: white;
+		width: 40%;
+		padding-right: 20px;
+		padding-top: 14px;
+		font-family:'Source Sans Pro', sans-serif;
+		opacity: 90%;
+		letter-spacing: 2px;
+	}
+	.box{
+		position: fixed;
+		width: 80%;
+		height: 100vh;
+		background-color: rgb(10, 31, 44);
+		top: 7%;
+		left:-100%;
+		transition: all .5s;
+		z-index:1;
+		overflow: scroll;
+	}
+	.asub{
+		padding-top: 0px;
+		padding-left: 20px;
+		padding-right: 5px;
+		font-size: 17px;
+		width: 100%;
+		height: 100%;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+		text-align: left;
+		background-color:  rgb(10, 31, 44);
+		color: white;
+		border: none;
+		cursor: pointer !important;
+	}
+	.asub1{
+		padding-top: 15px;
+		padding-left: 20px;
+		padding-right: 5px;
+		font-size: 17px;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+		text-align: left;
+		background-color:  rgb(10, 31, 44);
+		color: white;
+		border: none;
+		width: 100%;
+		height: 100%;
+		float: left;
+		display: block;
+		cursor: pointer !important;
+	}
+	.myform1{
+		height: 93%;
+		float: left;
+		width: 100%;
+	}
+	.inner_div{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left:0;
+		margin:0;
+		list-style-type:none;
+		overflow:scroll;
+		height: 65%;
+		padding-left: 10%;
+		padding-right: 10%;
+		width: 100%;
+		float: left;
+	}
+	.inner_div_main{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin:0;
+		list-style-type:none;
+		height: 70%;
+		padding-left: 5%;
+		padding-right: 5%;
+		width: 100%;
+		background-color: rgb(255, 255, 255);
+		float: left;
+		display: block;
+	}
+	.boxa{
+		display: none;
+	}
+	.container{
+		height: 50px;
+		width: 100%;
+		float: left;
+		font-size: 17px;
+		letter-spacing: 2px;
+		cursor: pointer !important;
+	}
+	.message1{
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	.message2{
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	main .message1a{
+		padding:10px;
+		padding-right: 10px;
+		color:#000;
+		margin-right:0px;
+		background-color:#6fbced;
+		line-height:20px;
+		max-width:90%;
+		display:inline-block;
+		border-radius:5px;
+		font-size: 85%;
+		letter-spacing: 1.5px;
+		margin-top: 30px;
+		float: right;
+		padding-left: 10px;
+	}
+	.box1{
+		float: left;
+	}
+	.box12{
+		padding:0px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 60%;
+		opacity: 60%;
+		margin-top: 10px;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+	}
+	.message2a{
+		padding:10px;
+		padding-right: 10px;
+		color:#000;
+		margin-right:15px;
+		margin-top: 30px;
+		background-color:#6fbced;
+		line-height:20px;
+		max-width:90%;
+		display:inline-block;
+		font-size: 85%;
+		letter-spacing: 1.5px;
+		float: left;
+		padding-left: 10px;
+		border-radius: 5px;
+	}
+	.box22{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 60%;
+		opacity: 60%;
+		margin-top: 10px;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+	}
+	main footer{
+		float: left;
+		width: 100%;
+		height: 25%;
+		padding:20px 20px 20px 20px;
+		background-color:#282b2e;
+	}
+	main footer1{
+		float: left;
+		width: 100%;
+		height: 20%;
+		padding:20px 20px 20px 20px;
+		background-color:#282b2e;
+	}
+	.message{
+		width: 100%;
+		height: 50%;
+		float: left;
+		display: block;
+		float: left;
+		margin-bottom: 10px;
+	}
+	.msg{
+		width: 100%;
+		height: 100%;
+		font-size: 20px;
+		padding: 10px 15px;
+		border-radius:35px;
+		border: none;
+		outline: none;
+	}
+	.msg:hover{
+		border: 2px solid rgb(131, 195, 255);
+	}
+	.sub{
+		width: 30%;
+		margin-top: 10px;
+		height: 30%;
+		float: left;
+		display: block;
+		cursor:pointer !important;
+	}
+	.sub_main{
+		width: 45%;
+		margin-top: 20px;
+		height: 50%;
+		float: left;
+		display: block;
+		cursor:pointer !important;
+	}
+	.input2{
+		height: 100%;
+		width: 100%;
+		border-radius: 15px;
+		display: block;
+		text-align: center;
+		border:none;
+		text-decoration: none;
+		text-align: center;
+		display: inline-block;
+		background-color: rgb(20, 163, 115);
+		font-size: 14px;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+		color: white;
+	}
+	.input2:hover{
+		background-color:rgb(41, 88, 73) ;
+	}
+	.refresh{
+		width: 30%;
+		margin-top: 10px;
+		height: 30%;
+		float: left;
+		display: block;
+		cursor:pointer !important;
+		margin-left: 18px;
+	}
+	.re{
+		height: 100%;
+		width: 100%;
+		border-radius: 15px;
+		display: block;
+		text-align: center;
+		border:none;
+		text-decoration: none;
+		text-align: center;
+		display: inline-block;
+		background-color:rgb(194, 176, 97);
+		font-size: 14px;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+		color: white;
+	}
+	.log{
+		width: 30%;
+		height: 30%;
+		float: left;
+		display: block;
+		cursor:pointer !important;
+		float: right;
+		margin-top: 10px;
+	}
+	.log_main{
+		width: 45%;
+		margin-top: 20px;
+		height: 50%;
+		float: right;
+		display: block;
+		cursor:pointer !important;
+	}
+	.out{
+		height: 100%;
+		width: 100%;
+		border-radius: 15px;
+		display: block;
+		text-align: center;
+		float: right;
+		background-color: rgb(247, 62, 77);
+		color: white;
+		border:none;
+		text-decoration: none;
+		text-align: center;
+		display: inline-block;
+		font-size: 14px;
+		font-family:'Source Sans Pro', sans-serif;
+		letter-spacing: 2px;
+		cursor:pointer !important;
+	}
+	.endf{
+		background-color:#282b2e;
+		float: left;
+		height: 10%;
+		width: 100%;
+		font-size: 12px;
+		text-align: center;
+		letter-spacing: 2px;
+	}
+	.tst{
+		width: 100%;
+		height: 50%;
+		padding-top:10px;
+		padding-bottom: 10px;
+		float: left;
+		opacity: 90%;
+		background-color: rgb(226, 244, 255);
+	}
+	.tst1{
+		opacity: 90%;
+		color: black;
+	}
+	.out:hover{
+		background-color:  rgb(116, 44, 50);
+	}
+	a{
+		color: white;
+	}
+}
+	
